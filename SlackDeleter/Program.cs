@@ -78,6 +78,10 @@ _)|(|(_|<  |/(/_|(/_|_(/_|`
             return ret;
         }
 
+        /// <summary>
+        /// Uses your Slack authentication token to make a Delete POST request for a specific file
+        /// </summary>
+        /// <param name="File">string of the Slack File ID to delete</param>
         static private void DeleteFile(string File)
         {
             string authToken = ConfigurationManager.AppSettings.Get("authToken");
