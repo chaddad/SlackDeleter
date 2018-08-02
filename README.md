@@ -8,7 +8,8 @@ SlackDeleter uses the legacy Web APIs for Slack to retrieve a list of files that
 ## How To Use
 1. Download or clone this repo
 1. Open the `app.Sample.config` file, follow the link to [generate a legacy token for your Slack user and instance](https://api.slack.com/custom-integrations/legacy-tokens), and update the `authToken` value in the config
-1. Save the config as `app.config`, compile, and run
+1. Save the config as `app.config`
+1. As a .Net Core app, you can compile and run by using `dotnet run` from a command line prompt in the project directory
 
 ## Default values
 * SlackDeleter will default to only request files that are over 5 days old, but this can be modified in the `GetFiles()` function in `Program.cs`.
