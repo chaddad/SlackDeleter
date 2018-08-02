@@ -1,3 +1,8 @@
+```
+(`|   _|   |\ _ | _ |- _   
+_)|(|(_|<  |/(/_|(/_|_(/_|`
+```
+
 # SlackDeleter
 Don't you hate when you upload a new file to your favorite Slack, and get a message that your team is almost out of storage space? 
 
