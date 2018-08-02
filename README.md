@@ -16,5 +16,5 @@ SlackDeleter uses the legacy Web APIs for Slack to retrieve a list of files that
 * SlackDeleter will default to sleep for 2 seconds between delete requests. Slack rate-limits the calls to this request, and by delaying 2 seconds between requests you should be able to stay within the rate-limits set by Slack
 
 ## TODOs
--[ ] move "days old" to config file
--[ ] update to use newer Slack APIs and authentication
+- [ ] move "days old" to config file
+- [ ] update to use newer Slack APIs and authentication
