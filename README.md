@@ -1,0 +1,2 @@
+# SlackDeleter
+Don't you hate when you upload a new file to your favorite Slack, and get a message that your team is almost out of storage space? Me too. SlackDeleter uses the legacy Web APIs for Slack to retrieve a list of files that are older than a few days, and then issues a delete request for each file. Chances are, you can't even see these in chats anymore because you've had too many messages.
