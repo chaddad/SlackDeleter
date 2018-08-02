@@ -31,7 +31,7 @@ _)|(|(_|<  |/(/_|(/_|_(/_|`
             {
                 Console.WriteLine(string.Format("Deleting file: {0}", item));
 
-                //DeleteFile(item);
+                DeleteFile(item);
 
                 // Slack rate limits the Delete API endpoint, this should prevent us from going over those rate limits
                 System.Threading.Thread.Sleep(new TimeSpan(0, 0, 0, 2));
